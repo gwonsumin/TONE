@@ -1,11 +1,11 @@
 <!-- logo -->
 <p align="center">
-  <a href="https://toneapp.dothome.co.kr" target="_blank">
+  <a href="https://tone.dothome.co.kr/splash" target="_blank">
     <img width="220" height="220" alt="logo" src="https://github.com/user-attachments/assets/2387ca27-efc6-4d15-a69a-92c8dddbe63c" />
   </a>
 </p>
 <p align="center">
-  <a href="https://toneapp.dothome.co.kr" target="_blank">
+  <a href="https://tone.dothome.co.kr/splash" target="_blank">
     <img width="120" alt="logo-text" src="https://github.com/user-attachments/assets/2b1036b8-0ad2-4819-b6df-5300e53b25d2" />
   </a>
 </p>
@@ -14,8 +14,8 @@ TONE은 사용자에게 매일 팬톤컬러 기반의 색상과 그에 어울리
 하루의 감정을 색과 음악으로 기록할 수 있는 모바일 뮤직 플랫폼입니다.
 </p>
 <p align="center">
-  🔗 <a href="https://toneapp.dothome.co.kr" target="_blank">
-    https://toneapp.dothome.co.kr
+  🔗 <a href="https://tone.dothome.co.kr/splash" target="_blank">
+    https://tone.dothome.co.kr/
   </a>
 </p>
 <p align="center">
