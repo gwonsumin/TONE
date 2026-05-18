@@ -167,6 +167,35 @@ ON DUPLICATE KEY UPDATE
   profile_color = VALUES(profile_color),
   membership_plan = VALUES(membership_plan);
 
+INSERT INTO users (
+  user_uuid,
+  id,
+  email,
+  password_hash,
+  nickname,
+  profile_color,
+  provider,
+  provider_id,
+  membership_plan
+)
+VALUES (
+  '22222222-2222-2222-2222-222222222222',
+  'test',
+  'test@naver.com',
+  '$2y$12$qWUl2kMEY.cRg7AMvq7bf.dESeraAxqgQVBr7G4VrjWk8eC2a9Tgu',
+  '테스트2',
+  '#B7AEA6',
+  'local',
+  NULL,
+  'free'
+)
+ON DUPLICATE KEY UPDATE
+  email = VALUES(email),
+  password_hash = VALUES(password_hash),
+  nickname = VALUES(nickname),
+  profile_color = VALUES(profile_color),
+  membership_plan = VALUES(membership_plan);
+
 -- categories 기본 데이터
 INSERT INTO categories (mood, label, tag1, tag2, tag3, grad_c1, grad_c2, grad_c3)
 VALUES
